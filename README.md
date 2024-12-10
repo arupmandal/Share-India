@@ -21,3 +21,15 @@ Follow these steps to install and run **Share💖India** locally:
 ```bash
 git clone https://github.com/arupmandal/share-love-india.git
 cd share-love-india
+
+### 2. Install dependencies:
+
+```bash
+npm install
+
+### 3. Configure Cloudinary:
+Make sure you have a Cloudinary account and replace the cloud_name, api_key, and api_secret in cloudinary.js with your own credentials.
+
+### 4. Start the server:
+```
+npm start
